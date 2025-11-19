@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Carte - Chicken Point Aubervilliers</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="loader-logo">
+            <span class="accent">CHICKEN</span> POINT
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <span class="accent">CHICKEN</span> POINT
+            </a>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="nav">
+                <a href="index.html">Accueil</a>
+                <a href="carte.html">La Carte</a>
+                <a href="restaurant.html">Le Restaurant</a>
+                <a href="https://www.ubereats.com/fr/store/chicken-point/cdtwzbS2SFSAQ1WBOYv42g?diningMode=PICKUP&ps=1" target="_blank" class="btn-primary">Commander</a>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/chickenpointaubervilliers?igsh=MWZxOGIzOThhbnBsZg==" target="_blank" class="social-icon" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@chicken.point.aub?_r=1&_t=ZN-91SebNRsBIk" target="_blank" class="social-icon" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="carte-hero">
+        <div class="container">
+            <h1 class="fade-in">Notre <span class="accent">Carte</span></h1>
+            <p class="fade-in-delay">Des saveurs authentiques, des prix justes</p>
+        </div>
+    </section>
+
+    <div id="menu-nav-bar" class="menu-nav-bar-sticky">
+        <div class="container menu-nav-container">
+            <div id="menu-nav-swiper" class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="#top-ventes">🔥 TOP VENTES</a></div>
+                    <div class="swiper-slide"><a href="#petits-prix">💸 PETITS PRIX</a></div>
+                    <div class="swiper-slide"><a href="#burgers">🍔 BURGERS</a></div>
+                    <div class="swiper-slide"><a href="#sandwichs">🥪 SANDWICHS</a></div>
+                    <div class="swiper-slide"><a href="#biryanis">🍛 BIRYANIS</a></div>
+                    <div class="swiper-slide"><a href="#formules">🍗 FORMULES</a></div>
+                    <div class="swiper-slide"><a href="#menus-poulet">🍗 MENUS POULET</a></div>
+                    <div class="swiper-slide"><a href="#menus-family">🍗 MENUS FAMILY</a></div>
+                    <div class="swiper-slide"><a href="#tex-mex">🌶️ TEX-MEX</a></div>
+                    <div class="swiper-slide"><a href="#salades">🥗 SALADES</a></div>
+                    <div class="swiper-slide"><a href="#milkshake">🥤 MILKSHAKE</a></div>
+                    <div class="swiper-slide"><a href="#desserts">🍰 DESSERTS</a></div>
+                    <div class="swiper-slide"><a href="#boissons">🥤 BOISSONS</a></div>
+                </div>
+            </div>
+            <div class="swiper-button-prev menu-nav-btn"></div>
+            <div class="swiper-button-next menu-nav-btn"></div>
+        </div>
+    </div>
+
+    <section class="menu-section">
+        <div class="container">
+            
+            <div class="menu-category" id="top-ventes">
+                <div class="category-header">
+                    <span class="category-icon">🔥</span>
+                    <h2>TOP VENTES — LES FAVORIS DE NOS CLIENTS</h2>
+                </div>
+                <div class="menu-grid">
+                    
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MENU 10 HOT & SPICY WINGS</h3>
+                            <p>10 wings croustillants et épicés, servis avec frites dorées et boisson au choix — un plaisir 100 % crispy.</p>
+                            <div class="item-price">16,30 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/f913601f61e4d847bad42629c2dd3c4f/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MENU 10 HOT & SPICY WINGS">
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MENU 6 TENDERS</h3>
+                            <p>6 tenders de poulet croustillants, accompagnés de frites et d'une boisson — simple, gourmand et efficace.</p>
+                            <div class="item-price">16,30 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/f8010e7e612f6b0187d5c83eb4ee69ba/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MENU 6 TENDERS">
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MENU 5 TENDERS & 5 WINGS</h3>
+                            <p>Mix croustillant : 5 tenders + 5 wings, accompagnés de frites et boisson — un combo généreux et crousti-fondant.</p>
+                            <div class="item-price">17,40 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/04d550d02964718e69fc54fc3ae1deb3/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MENU 5 TENDERS & 5 WINGS">
+                        </div>
+                    </div>
+
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>POULET BIRYANI</h3>
+                            <p>Riz basmati parfumé, morceaux de poulet tendre et épices indiennes — un voyage plein de saveurs.</p>
+                            <div class="item-price">10,80 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/09fe9490621aabffc25460c2d5fccff7/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="POULET BIRYANI">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="petits-prix">
+                <div class="category-header">
+                    <span class="category-icon">💸</span>
+                    <h2>PETITS PRIX — GOURMANDS & MALINS</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>FISH BURGER</h3>
+                            <p>Poisson pané croustillant, cheddar fondant, crudités fraîches — la fraîcheur marine qui fait fondre.</p>
+                            <div class="item-price">4,70 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/aacae7f2bfd2a1e5f71a36f20968093e/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="FISH BURGER">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>CHICKEN BURGER</h3>
+                            <p>Poulet croustillant, cheddar fondant, crudités fraîches et pain brioché — un classique qui régale à chaque bouchée.</p>
+                            <div class="item-price">4,70 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/ba73dfad6bdc3b3cdecd808049485439/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="CHICKEN BURGER">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>CHEESEBURGER</h3>
+                            <p>Steak grillé, cheddar fondant, salade croquante et cornichons — le goût authentique du burger américain.</p>
+                            <div class="item-price">4,00 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/9d9000a815f0d0f3ba0cb6f6f049cba7/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="CHEESEBURGER">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="burgers">
+                <div class="category-header">
+                    <span class="category-icon">🍔</span>
+                    <h2>BURGERS — GOURMANDS & SAVOUREUX</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>CHICKEN BURGER</h3>
+                            <p>Poulet croustillant, cheddar fondant, crudités fraiches et pain brioché — un classique qui régale à chaque bouchée.</p>
+                            <div class="item-price">4,80 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/ba73dfad6bdc3b3cdecd808049485439/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="CHICKEN BURGER">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>DOUBLE CHICKEN</h3>
+                            <p>Deux filets croustillants, cheddar fondant, crudités fraiches et pain moelleux — double plaisir garanti.</p>
+                            <div class="item-price">8,20 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/57b57f6baa33391613da811de10418f5/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="DOUBLE CHICKEN">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>SUPER BURGER</h3>
+                            <p>Poulet croustillant, galette de pomme de terre dorée, cheddar fondant, crudités fraiches — fondant et croquant à souhait.</p>
+                            <div class="item-price">8,20 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/ec0c483d83e98417149564485f5d685f/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="SUPER BURGER">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>CRISPY BURGER</h3>
+                            <p>Poulet croustillant et filet mariné tikka, cheddar fondant, crudités fraiches — un équilibre parfait entre douceur et...</p>
+                            <div class="item-price">4,70 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/89e91a383c999d2d262f4a3ca76392fc/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="CRISPY BURGER">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>CHEESEBURGER</h3>
+                            <p>Steak grillé, cheddar fondant, salade croquante et cornichons — le goût authentique du burger américain.</p>
+                            <div class="item-price">4,70 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/9d9000a815f0d0f3ba0cb6f6f049cba7/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="CHEESEBURGER">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>DOUBLE CHEESE</h3>
+                            <p>Deux steaks grillés, double cheddar fondant, crudités fraiches — le grand classique version XXL.</p>
+                            <div class="item-price">6,20 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/26eb4ad6b748885cb99214c3fdaeb38b/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="DOUBLE CHEESE">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>TRIPLE STEAKS BURGER</h3>
+                            <p>Trois steaks grillés, triple cheddar fondant, salade croquante — pour les vrais amateurs de viande.</p>
+                            <div class="item-price">8,10 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/ec3f023f4809b95d35b4ef6fb894fcfb/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="TRIPLE STEAKS BURGER">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>FISH BURGER</h3>
+                            <p>Poisson pané croustillant, cheddar fondant, crudités fraiches — la fraîcheur marine qui fait fondre.</p>
+                            <div class="item-price">4,70 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/aacae7f2bfd2a1e5f71a36f20968093e/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="FISH BURGER">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MEGA BURGER</h3>
+                            <p>Steak grillé et poulet croustillant, cheddar fondant, crudités fraiches — la fusion ultime de deux mondes.</p>
+                            <div class="item-price">8,10 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/fe6842b839ec12dae42188ac8112704e/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MEGA BURGER">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="sandwichs">
+                <div class="category-header">
+                    <span class="category-icon">🥪</span>
+                    <h2>SANDWICHS — GOURMANDS & CHAUDS</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>CHICKEN CHICA</h3>
+                            <p>Poulet mariné tendre et cheddar fondant, crudités fraiches et sauce au choix — un vrai classique qui fait fondre tout le...</p>
+                            <div class="item-price">7,80 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/91f2e092c2a20b26cd993eb807f11694/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="CHICKEN CHICA">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>BOLLYWOOD</h3>
+                            <p>Poulet tikka parfumé et cheddar coulant, crudités croquantes et sauce au choix — un aller simple vers l'Inde en une bouchée.</p>
+                            <div class="item-price">7,80 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/f4d4af8b9150e5f66d61c159579ef8c6/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="BOLLYWOOD">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>TRIPLE STEAKS</h3>
+                            <p>Trois steaks grillés et cheddar fondant, crudités fraiches et sauce au choix — un sandwich taillé pour les gros appétits.</p>
+                            <div class="item-price">7,80 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/84702b46ca1b7052d6db9a4a0dbc44b0/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="TRIPLE STEAKS">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>QUATTRO</h3>
+                            <p>Quatre steaks juteux nappés de cheddar fondant, crudités et sauce au choix — le géant de la famille, impossible à ignorer.</p>
+                            <div class="item-price">9,10 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/e221bd47bdee855074e4096d6f8765d8/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="QUATTRO">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>GREC</h3>
+                            <p>Kebab tendre, crudités fraiches et sauce au choix — un incontournable plein de saveur et de générosité.</p>
+                            <div class="item-price">7,20 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/0e174dada2f16bf71d5a4c4fe16a5d84/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="GREC">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>RADICAL</h3>
+                            <p>Deux steaks et un cordon bleu croustillant, crudités croquantes et sauce au choix — un mix fondant-croquant qui régale à...</p>
+                            <div class="item-price">7,80 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/d456fb21be53a815a92c93dab6307a28/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="RADICAL">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="biryanis">
+                <div class="category-header">
+                    <span class="category-icon">🍛</span>
+                    <h2>BIRYANIS — PARFUMÉS & AUTHENTIQUES</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>POULET BIRYANI</h3>
+                            <p>Riz basmati parfumé, morceaux de poulet tendre et épices indiennes — un voyage plein de saveurs.</p>
+                            <div class="item-price">10,80 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/09fe9490621aabffc25460c2d5fccff7/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="POULET BIRYANI">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>CREVETTE BIRYANI</h3>
+                            <p>Riz basmati aux épices, crevettes fondantes et coriandre fraîche — une explosion de goût à l'indienne.</p>
+                            <div class="item-price">16,20 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/63d1726c87277f7c86d8d7d512b934c6/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="CREVETTE BIRYANI">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="formules">
+                <div class="category-header">
+                    <span class="category-icon">🍗</span>
+                    <h2>FORMULES — COMPLÈTES & GOURMANDES</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>CHICKEN POINT 01</h3>
+                            <p>1 chicken roll, 6 wings, frites croustillantes et boisson au choix — une formule généreuse et savoureuse.</p>
+                            <div class="item-price">21,80 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/7a417bab82e9c66c15f2508f7ce9db07/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="CHICKEN POINT 01">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>CHICKEN POINT 02</h3>
+                            <p>1 chicken burger, 6 wings, frites dorées et boisson au choix — le combo parfait pour les vrais gourmands.</p>
+                            <div class="item-price">19,00 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/d0d49e0eca773de3321fa4d45348a18f/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="CHICKEN POINT 02">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="menus-poulet">
+                <div class="category-header">
+                    <span class="category-icon">🍗</span>
+                    <h2>NOS MENUS POULET — CROUSTILLANTS & GÉNÉREUX</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MENU 10 HOT & SPICY WINGS</h3>
+                            <p>10 wings croustillants et épicés, servis avec frites dorées et boisson au choix — un plaisir 100 % crispy.</p>
+                            <div class="item-price">16,30 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/f913601f61e4d847bad42629c2dd3c4f/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MENU 10 HOT & SPICY WINGS">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MENU 6 TENDERS</h3>
+                            <p>6 tenders de poulet croustillants, accompagnés de frites et d'une boisson — simple, gourmand et efficace.</p>
+                            <div class="item-price">16,30 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/f8010e7e612f6b0187d5c83eb4ee69ba/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MENU 6 TENDERS">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MENU 5 TENDERS & 5 WINGS</h3>
+                            <p>Mix croustillant : 5 tenders + 5 wings, accompagnés de frites et boisson — un combo généreux et crousti-fondant.</p>
+                            <div class="item-price">17,40 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/04d550d02964718e69fc54fc3ae1deb3/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MENU 5 TENDERS & 5 WINGS">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="menus-family">
+                <div class="category-header">
+                    <span class="category-icon">🍗</span>
+                    <h2>NOS MENUS FAMILY — XXL & PARTAGEURS</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MENU A</h3>
+                            <p>30 wings croustillants servis avec 4 frites et une bouteille 1,5 L au choix — pour les vrais fans de chicken.</p>
+                            <div class="item-price">40,80 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/3afca87b0e4b5e4aa4633303bdba4c99/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MENU A">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MENU C</h3>
+                            <p>15 wings et 9 tenders, servis avec 4 frites dorées et une bouteille 1,5 L — la formule parfaite pour deux affamés.</p>
+                            <div class="item-price">40,80 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/e2b071934dff2ad8fb4b801b0350f18f/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MENU C">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MENU D</h3>
+                            <p>15 wings et 15 tenders, accompagnés de 4 frites et d'une boisson 1,5 L — le combo croustillant qui régale toute la table.</p>
+                            <div class="item-price">54,40 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/0e5f6f130831b83a6f08d4fcb47121e6/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MENU D">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MENU E</h3>
+                            <p>Mix géant : 15 wings, 15 tenders, 4 frites et une boisson 1,5 L — du crousti-fondant en quantité XXL.</p>
+                            <div class="item-price">61,20 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/046ff2e6cb0d4643be6669a23177dc6f/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MENU E">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MENU G</h3>
+                            <p>15 wings, 15 tenders, 4 frites et une bouteille 1,5 L — généreux, gourmand et à partager sans modération.</p>
+                            <div class="item-price">61,20 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/85efd74f87713063ff50184dc8b7acdc/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MENU G">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="tex-mex">
+                <div class="category-header">
+                    <span class="category-icon">🌶️</span>
+                    <h2>TEX-MEX — CROUSTILLANT & GOURMAND</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>NUGGETS</h3>
+                            <p>Poulet croustillant à cœur fondant — dorés, tendres et irrésistibles.</p>
+                            <div class="item-price">5,30 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/7daab2e4de468a6fafed27367610d558/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="NUGGETS">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>ONION RINGS</h3>
+                            <p>Rondelles d'oignons dorées et fondantes — sucrées, légères et croustillantes à souhait.</p>
+                            <div class="item-price">3,80 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/a791278a4b4ba38c532578f980c330cd/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="ONION RINGS">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MOZZARELLA STICKS</h3>
+                            <p>Mozzarella fondante enrobée d'une panure dorée — croquante dehors, coulante dedans.</p>
+                            <div class="item-price">6,10 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/3c2f5b3ad3eeacbc05a130d0713b2b2e/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MOZZARELLA STICKS">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>NEMS AU POULET</h3>
+                            <p>Rouleaux croustillants garnis de poulet et légumes — dorés à la perfection, riches en goût.</p>
+                            <div class="item-price">6,80 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/c9fe7f9e5a9901cad9430f1316ae0332/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="NEMS AU POULET">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>SAMOSSA X2</h3>
+                            <p>Feuilletés dorés au poulet épicé — croustillants dehors, fondants dedans.</p>
+                            <div class="item-price">4,00 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/0263543641a65a6ede2d2b2a3480a907/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="SAMOSSA X2">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>FRITES</h3>
+                            <p>Frites dorées, croustillantes et légères — l'accompagnement parfait, simple et efficace.</p>
+                            <div class="item-price">3,40 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/e1d5b5c17527b783358f0ec47687beaf/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="FRITES">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>DERNIERS JOURS 🎈 BOUCHÉES DE CAMEMBERT X6</h3>
+                            <p>Cœur coulant de camembert fondant, panure dorée — une douceur fromagère irrésistible.</p>
+                            <div class="item-price">10,90 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/128d222c43e7c02887de9c5531f37aa3/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="BOUCHÉES DE CAMEMBERT">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="salades">
+                <div class="category-header">
+                    <span class="category-icon">🥗</span>
+                    <h2>SALADES — FRAÎCHES & GOURMANDES</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>SALADE CÉSAR</h3>
+                            <p>Tenders croustillants, tomates cerises et salade iceberg — fraîche, croquante et pleine de saveurs.</p>
+                            <div class="item-price">9,00 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/201b26a4b165426f73d67c0cf4cc2b97/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="SALADE CÉSAR">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>SALADE CHEF</h3>
+                            <p>Tenders croustillants, bacon grillé, tomates, oignons frits et salade iceberg — un mélange fondant et croustillillant.</p>
+                            <div class="item-price">9,00 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/36021ec1d8a73e728debd91800f9889a/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="SALADE CHEF">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>SALADE TANDOORI</h3>
+                            <p>Poulet tandoori épicé, olives vertes, tomates cerises, oignons et salade iceberg — une salade relevée et rafraîchissante.</p>
+                            <div class="item-price">9,00 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/2fb547ac0c648b4c1f365f40f5f7cb64/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="SALADE TANDOORI">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="milkshake">
+                <div class="category-header">
+                    <span class="category-icon">🥤</span>
+                    <h2>MILKSHAKE — ONCTUEUX & GOURMAND</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>MILKSHAKE MAISON</h3>
+                            <p>Crème glacée onctueuse, lait frais, topping au choix. Un pur moment de douceur à chaque gorgée.</p>
+                            <div class="item-price">6,90 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/82a71624334182461fcbb963a2d1abfa/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="MILKSHAKE MAISON">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="desserts">
+                <div class="category-header">
+                    <span class="category-icon">🍰</span>
+                    <h2>DESSERTS — CRÉMEUX & FAIT MAISON</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>TIRAMISU FAIT MAISON</h3>
+                            <p>Mascarpone onctueux, biscuit imbibé, saveur au choix. Un nuage de douceur pour finir ton repas en beauté.</p>
+                            <div class="item-price">5,90 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/7ff5343ff81c52b3949a9463d0b278a9/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="TIRAMISU FAIT MAISON">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>TARTE AU DAIM</h3>
+                            <p>Fond sablé, éclats de Daim croquants, nappage fondant. Un vrai plaisir crousti-fondant à chaque bouchée.</p>
+                            <div class="item-price">6,10 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/d32b26e82be72997041fce0b2b334c4f/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="TARTE AU DAIM">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>CHEESECAKE MAISON</h3>
+                            <p>Base biscuitée dorée, crème fondante au fromage frais. Un dessert onctueux et fondant, comme à New York.</p>
+                            <div class="item-price">6,10 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/3a95f686396c25f200fecdf42e9ddd92/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="CHEESECAKE MAISON">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category" id="boissons">
+                <div class="category-header">
+                    <span class="category-icon">🥤</span>
+                    <h2>BOISSONS — FRAÎCHES & PÉTILLANTES</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>COCA-COLA</h3>
+                            <p>L'incontournable, frais et pétillant, toujours au top.</p>
+                            <div class="item-price">2,60 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/b6a6c90e330d416f190c899187c6edc6/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="COCA-COLA">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>LIPTON ICE TEA</h3>
+                            <p>Thé glacé doux et rafraîchissant, parfait pour la pause fraîcheur.</p>
+                            <div class="item-price">2,60 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/7fef643b96ce2e8675f46bda66924493/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="LIPTON ICE TEA">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>ORANGINA</h3>
+                            <p>Bulles fines et goût d'orange unique. Secoue, savoure, recommence.</p>
+                            <div class="item-price">2,60 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/e0fe8f354aaf7bd5d82ff58e821152fb/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="ORANGINA">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>FANTA EXOTIC</h3>
+                            <p>Explosion tropicale, idéale pour les amateurs de sensations fruitées.</p>
+                            <div class="item-price">2,60 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/18c2f29516bcf31afabfc3cff2c8f2e7/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="FANTA EXOTIC">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>FANTA FRAISE KIWI</h3>
+                            <p>Une alliance sucrée et acidulée, ultra rafraîchissante.</p>
+                            <div class="item-price">2,60 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/722e77ae7467241dc43c867172260f4b/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="FANTA FRAISE KIWI">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>PERRIER</h3>
+                            <p>Naturellement gazeux, désaltérant et plein de peps.</p>
+                            <div class="item-price">2,60 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/6566446259a42dc799069bd212fd1172/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="PERRIER">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>TANGO POMME</h3>
+                            <p>Un goût fruité et vif, parfait pour accompagner ton plat préféré.</p>
+                            <div class="item-price">2,60 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/0632887b6116969dfdce974cbbdfed9f/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="TANGO POMME">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>FANTA ORANGE 1,5 L</h3>
+                            <p></p>
+                            <div class="item-price">3,90 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/7fda2c48ff6723c69aa14a22209a900e/0e5313be7a8831b8ed60f8dab3c2df10.jpeg" alt="FANTA ORANGE 1,5 L">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>COCA-COLA 1,5 L</h3>
+                            <p></p>
+                            <div class="item-price">3,90 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/41a07dfb33f64129ed2a302647cd12fc/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="COCA-COLA 1,5 L">
+                        </div>
+                    </div>
+                    <div class="menu-item-card">
+                        <div class="item-info">
+                            <h3>PEPSI 1,5 L</h3>
+                            <p></p>
+                            <div class="item-price">3,90 €</div>
+                        </div>
+                        <div class="menu-item-image">
+                            <img src="https://tb-static.uber.com/prod/image-proc/processed_images/8ceb1031eb38cad93579fcfa883fd5af/70aa2a4db7f990373ca9c376323e3dea.jpeg" alt="PEPSI 1,5 L">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Prêt à commander ?</h2>
+            <p>Commandez directement en ligne</p>
+            <div class="cta-buttons">
+                <a href="https://www.ubereats.com/fr/store/chicken-point/cdtwzbS2SFSAQ1WBOYv42g?diningMode=PICKUP&ps=1" target="_blank" class="btn-primary">🛵 Commander sur Uber Eats</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3><span class="accent">CHICKEN</span> POINT</h3>
+                    <p>Le meilleur poulet grillé d'Aubervilliers</p>
+                    <div class="footer-rating">
+                        ⭐⭐⭐⭐⭐ 4.9/5 (219 avis Google)
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="carte.html">La Carte</a></li>
+                        <li><a href="restaurant.html">Le Restaurant</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <p>14 Rue Charles Tillon<br>93300 Aubervilliers</p>
+                    <p>Tél: <a href="tel:0123456789">01 23 45 67 89</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Chicken Point Aubervilliers - Tous droits réservés - <a href="mentions.html" style="color: #86868B; text-decoration: underline;">Mentions Légales</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <p>ℹ️ Information : Ce site n'utilise pas de cookies publicitaires. Vous pouvez naviguer en toute tranquillité.</p>
+            <div class="cookie-buttons">
+                <button id="ack-cookies" class="btn-cookie-accept">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
